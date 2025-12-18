@@ -9,26 +9,26 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","27806628"))
+API_HASH = getenv("API_HASH","25d88301e886b82826a525b7cf52e090")
 
 EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","8292210027:AAEPOUuE2gLMhl8jCO1aXcrnWRsZBpKw_b8")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","funnytamilan")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME","TFCXMusicXBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "TFCXMusicX")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "funnytamilan_2")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://acoolvoice03_db_user:gDvzSlQvi0REvSWP@cluster0.t91uvkm.mongodb.net/?appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID",-1003369263462))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", 8525952693))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION","BQF1s6cAiH_ojYTnUQ1NsyFD1Ulhf7VfMSYaa0VbaHky0PDjO8UyRtV1shBhOMegzTsXXt-ooUZRaiiGvWYmmjalNyBYzNHQjAumEJYbCbyGRl5RJGJdSupmiQBa3dR34AnKDc2_fNzp6PGsWk-qKlzZT8DhaFAlxDZmaha0GwPjmm8aYZlle1UsyZLbM_vx14nmHJT8gyGMbmifTxXh-JpL3_AaRCbnW9jLh0ULf_CSURvd7lg8gc578_4H0KvwSBtIYuyohvmyRC2kKX0-vQCn7X_MfFzqsxrQvdi2yYNWW5WgmzQID91602_GqPQ1-DzSOx5f7wNBPAmqTQ_uvxO5Ww-fLgAAAAGx9uaUAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
